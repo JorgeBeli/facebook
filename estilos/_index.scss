@@ -1,0 +1,129 @@
+.wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.info {
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    img {
+        height: 106px;
+        margin: -28px;
+    }
+    p {
+        color: $negro;
+    }
+}
+
+.wraper {
+    background-color: #f0f2f5;
+    >* {
+    margin-bottom: 7em;
+    }
+}
+
+.logIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .principal {
+        background-color: #fff;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+        box-sizing: border-box;
+        margin: 40px 0 0;
+        padding: 20px 0 28px;
+        width: 396px;
+        a {
+            text-decoration: none;
+        }
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            label {
+                display: inline-block;
+                margin: auto;
+                padding: 6px 0;
+                input {
+                    border-radius: 6px;
+                    border: 1px solid #dddfe2;
+                    color: $negro;
+                    font-size: 17px;
+                    padding: 14px 16px;
+                    width: 330px;
+                }
+            }
+        }
+        .btnLogIn {
+            display: flex;
+            justify-content: center;
+            button {
+                box-sizing: content-box;
+                background-color: $azul;
+                width: 100%;
+                border: none;
+                border-radius: 6px;
+                font-size: 20px;
+                font-weight: 900;
+                line-height: 48px;
+                padding: 0 16px;
+                width: 332px;
+                color: #fff;
+                text-transform: capitalize;
+            }
+        }
+        .forgot {
+            text-align: center;
+            a {
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+        .separador {
+            align-items: center;
+            border-bottom: 1px solid #dadde1;
+            display: flex;
+            margin: 20px 16px;
+            text-align: center;
+        }
+        .btnCreate {
+            text-align: center;
+            a {
+                display: inline-block;
+                font-weight: 900;
+                color: #fff;
+                border-radius: 6px;
+                font-size: 17px;
+                line-height: 48px;
+                padding: 0 16px;
+                background-color: $verde;
+                border-color: $verde;
+                box-sizing: content-box;
+            }
+        }
+    }
+    .extra {
+        margin-top: 28px;
+        text-align: center;
+        p {
+            border-top: none;
+            color: $negro;
+            font-size: 14px;
+            font-weight: normal;
+            padding-top: 0;
+            a {
+                text-decoration: none;
+                font-weight: 600;
+                color: $negro;
+            }
+        }
+    }
+}

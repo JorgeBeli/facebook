@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  color: #1877f2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #272727;
+}
+
+.wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.info {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0;
+  padding-right: 32px;
+  width: 580px;
+}
+
+.info img {
+  height: 106px;
+  margin: -28px;
+}
+
+.info p {
+  color: #272727;
+}
+
+.wraper {
+  background-color: #f0f2f5;
+}
+
+.wraper > * {
+  margin-bottom: 7em;
+}
+
+.logIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logIn .principal {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+}
+
+.logIn .principal a {
+  text-decoration: none;
+}
+
+.logIn .principal .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logIn .principal .inputs label {
+  display: inline-block;
+  margin: auto;
+  padding: 6px 0;
+}
+
+.logIn .principal .inputs label input {
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  color: #272727;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+}
+
+.logIn .principal .btnLogIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logIn .principal .btnLogIn button {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  background-color: #1877f2;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.logIn .principal .forgot {
+  text-align: center;
+}
+
+.logIn .principal .forgot a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.logIn .principal .separador {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
+
+.logIn .principal .btnCreate {
+  text-align: center;
+}
+
+.logIn .principal .btnCreate a {
+  display: inline-block;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  background-color: #42b72a;
+  border-color: #42b72a;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.logIn .extra {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.logIn .extra p {
+  border-top: none;
+  color: #272727;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 0;
+}
+
+.logIn .extra p a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #272727;
+}
+/*# sourceMappingURL=estilos.css.map */

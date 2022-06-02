@@ -1,0 +1,18 @@
+$familia: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+$negro: #272727;
+$azul: #1877f2;
+$verde: #42b72a;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $familia;
+    color: $azul;
+}
+
+h1, h2 ,h3 ,h4 ,h5, h6 {
+    font-family: $familia;
+    font-weight: 900;
+    font-size: 1rem;
+    color: $negro;
+}
